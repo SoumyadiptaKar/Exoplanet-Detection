@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s:')
 
-project_name = 'exoplaetDetection'
+project_name = 'exoplanetDetection'
 
 list_of_files = [
     ".github/workflow/.gitkeep",
