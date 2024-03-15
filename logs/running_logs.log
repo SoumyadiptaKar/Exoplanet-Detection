@@ -139,3 +139,243 @@ Source-Age: 1
 [2024-03-14 21:59:55,311: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
 [2024-03-14 21:59:56,637: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
 [2024-03-14 21:59:57,241: INFO: main: >>>>>>> stage Prepare Base Model stage completed <<<<<<<]
+[2024-03-15 08:27:44,514: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 08:27:44,534: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 08:27:44,537: INFO: common: created directory at: artifacts]
+[2024-03-15 08:27:44,543: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 08:27:44,547: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 08:32:27,142: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 08:32:27,148: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 08:32:27,153: INFO: common: created directory at: artifacts]
+[2024-03-15 08:32:27,157: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 08:32:27,160: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 08:32:50,255: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 08:32:50,263: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 08:32:50,266: INFO: common: created directory at: artifacts]
+[2024-03-15 08:32:50,270: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 08:32:50,273: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 08:33:09,694: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 08:33:09,701: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 08:33:09,705: INFO: common: created directory at: artifacts]
+[2024-03-15 08:33:09,709: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 08:33:09,714: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 08:55:17,903: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 08:55:17,907: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 08:55:17,909: INFO: common: created directory at: artifacts]
+[2024-03-15 08:55:17,912: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 08:55:17,915: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 08:56:06,558: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 08:56:06,566: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 08:56:06,570: INFO: common: created directory at: artifacts]
+[2024-03-15 08:56:06,575: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 08:56:06,579: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 08:57:24,282: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 08:57:24,290: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 08:57:24,290: INFO: common: created directory at: artifacts]
+[2024-03-15 08:57:24,298: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 08:57:24,298: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 08:59:43,912: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 08:59:43,919: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 08:59:43,921: INFO: common: created directory at: artifacts]
+[2024-03-15 08:59:43,925: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 08:59:43,929: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 10:40:36,398: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 10:40:36,406: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 10:40:36,410: INFO: common: created directory at: artifacts]
+[2024-03-15 10:40:36,415: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 10:40:36,421: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 10:41:54,876: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 10:41:54,885: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 10:41:54,889: INFO: common: created directory at: artifacts]
+[2024-03-15 10:41:54,893: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 10:41:54,897: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 10:42:09,785: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 10:42:09,790: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 10:42:09,795: INFO: common: created directory at: artifacts]
+[2024-03-15 10:42:09,799: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 10:42:09,803: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 10:42:57,747: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 10:42:57,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 10:42:57,754: INFO: common: created directory at: artifacts]
+[2024-03-15 10:42:57,757: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 10:43:06,619: INFO: 366118637: artifacts/data_ingestion/data.zip downloaded with the following info : 
+Connection: close
+Content-Length: 19067749
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "37fc1675d0e0274bfb474ae34af63b1f3d5f1f7d00af3e2381eb68134199f611"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8112:12C163:A9C6:CFBC:65F3D8DB
+Accept-Ranges: bytes
+Date: Fri, 15 Mar 2024 05:13:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10221-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1710479580.790498,VS0,VE1323
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 075812b101c2445ec6b571c71bcd8863f87a437f
+Expires: Fri, 15 Mar 2024 05:18:01 GMT
+Source-Age: 1
+
+]
+[2024-03-15 11:09:44,882: INFO: main: >>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-03-15 11:09:44,889: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:09:44,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:09:44,897: INFO: common: created directory at: artifacts]
+[2024-03-15 11:09:44,898: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 11:09:53,428: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with the following info : 
+Connection: close
+Content-Length: 19067749
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "37fc1675d0e0274bfb474ae34af63b1f3d5f1f7d00af3e2381eb68134199f611"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 35C0:294662:4A746E:60FF87:65F3DF1E
+Accept-Ranges: bytes
+Date: Fri, 15 Mar 2024 05:39:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830046-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1710481187.756435,VS0,VE1353
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 76122c3794e3e04bd17becd023877a7f0178a6c7
+Expires: Fri, 15 Mar 2024 05:44:48 GMT
+Source-Age: 1
+
+]
+[2024-03-15 11:09:56,082: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<]
+[2024-03-15 11:09:56,083: INFO: main: >>>>>>> stage Prepare Base Model stage started <<<<<<<]
+[2024-03-15 11:09:56,087: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:09:56,090: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:09:56,091: INFO: common: created directory at: artifacts]
+[2024-03-15 11:09:56,093: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 11:09:58,980: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-03-15 11:10:00,156: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-03-15 11:10:00,652: INFO: main: >>>>>>> stage Prepare Base Model stage completed <<<<<<<]
+[2024-03-15 11:10:00,653: INFO: main: >>>>>>> stage Prepare Callbacks stage started <<<<<<<]
+[2024-03-15 11:10:00,656: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:10:00,660: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:10:00,661: INFO: common: created directory at: artifacts]
+[2024-03-15 11:10:00,663: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 11:10:00,664: ERROR: main: 'PrepareCallback' object has no attribute 'get_base_model']
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Exoplanet-Detection\main.py", line 35, in <module>
+    data_ingestion.main()
+  File "c:\users\soumyadipta\desktop\exoplanet-detection\src\exoplanetDetection\pipeline\stage_03_prepare_callbacks.py", line 15, in main
+    prepare_base_model.get_base_model()
+AttributeError: 'PrepareCallback' object has no attribute 'get_base_model'
+[2024-03-15 11:14:05,922: INFO: main: >>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-03-15 11:14:05,926: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:14:05,929: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:14:05,931: INFO: common: created directory at: artifacts]
+[2024-03-15 11:14:05,932: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 11:14:14,059: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with the following info : 
+Connection: close
+Content-Length: 19067749
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "37fc1675d0e0274bfb474ae34af63b1f3d5f1f7d00af3e2381eb68134199f611"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8112:12C163:A9C6:CFBC:65F3D8DB
+Accept-Ranges: bytes
+Date: Fri, 15 Mar 2024 05:44:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10230-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1710481448.781542,VS0,VE278
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9c6097dc13c39400519c01553ad0a4b58cecd708
+Expires: Fri, 15 Mar 2024 05:49:08 GMT
+Source-Age: 0
+
+]
+[2024-03-15 11:14:16,612: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<]
+[2024-03-15 11:14:16,612: INFO: main: >>>>>>> stage Prepare Base Model stage started <<<<<<<]
+[2024-03-15 11:14:16,614: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:14:16,617: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:14:16,617: INFO: common: created directory at: artifacts]
+[2024-03-15 11:14:16,620: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 11:14:19,358: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-03-15 11:14:20,489: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-03-15 11:14:20,982: INFO: main: >>>>>>> stage Prepare Base Model stage completed <<<<<<<]
+[2024-03-15 11:14:20,982: INFO: main: >>>>>>> stage Prepare Callbacks stage started <<<<<<<]
+[2024-03-15 11:14:20,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:14:20,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:14:20,993: INFO: common: created directory at: artifacts]
+[2024-03-15 11:14:20,993: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 11:14:20,993: ERROR: main: 'PrepareCallback' object has no attribute 'get_base_model']
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Exoplanet-Detection\main.py", line 35, in <module>
+    prepare_callbacks.main()
+  File "c:\users\soumyadipta\desktop\exoplanet-detection\src\exoplanetDetection\pipeline\stage_03_prepare_callbacks.py", line 15, in main
+    prepare_base_model.get_base_model()
+AttributeError: 'PrepareCallback' object has no attribute 'get_base_model'
+[2024-03-15 11:16:56,909: INFO: main: >>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-03-15 11:16:56,916: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:16:56,918: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:16:56,921: INFO: common: created directory at: artifacts]
+[2024-03-15 11:16:56,922: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 11:17:06,425: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with the following info : 
+Connection: close
+Content-Length: 19067749
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "37fc1675d0e0274bfb474ae34af63b1f3d5f1f7d00af3e2381eb68134199f611"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8112:12C163:A9C6:CFBC:65F3D8DB
+Accept-Ranges: bytes
+Date: Fri, 15 Mar 2024 05:46:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10239-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1710481619.861358,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7f2d420a3aa3b17501edcb061e63a0e675306280
+Expires: Fri, 15 Mar 2024 05:51:58 GMT
+Source-Age: 171
+
+]
+[2024-03-15 11:17:08,997: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<]
+[2024-03-15 11:17:08,999: INFO: main: >>>>>>> stage Prepare Base Model stage started <<<<<<<]
+[2024-03-15 11:17:09,003: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:17:09,006: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:17:09,006: INFO: common: created directory at: artifacts]
+[2024-03-15 11:17:09,008: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 11:17:11,742: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-03-15 11:17:12,928: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-03-15 11:17:13,453: INFO: main: >>>>>>> stage Prepare Base Model stage completed <<<<<<<]
+[2024-03-15 11:17:13,453: INFO: main: >>>>>>> stage Prepare Callbacks stage started <<<<<<<]
+[2024-03-15 11:17:13,459: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 11:17:13,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 11:17:13,461: INFO: common: created directory at: artifacts]
+[2024-03-15 11:17:13,466: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-03-15 11:17:13,467: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-03-15 11:17:13,467: INFO: main: >>>>>>> stage Prepare Callbacks stage completed <<<<<<<]
