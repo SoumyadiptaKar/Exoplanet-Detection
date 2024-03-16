@@ -1,6 +1,6 @@
 # Exoplanet-Detection
 
-This Is an exoplanet detection Project using CNN
+This Is an exoplanet detection Project using kaggle numerical data converted into Scatter Plot.
 
 ## Workflow
 
@@ -12,3 +12,4 @@ This Is an exoplanet detection Project using CNN
 6. Update the pipeline
 7. Update the main.py
 8. Update the dvc.yaml
+
