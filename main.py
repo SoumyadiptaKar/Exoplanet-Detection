@@ -1,6 +1,6 @@
 from exoplanetDetection.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from exoplanetDetection.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
-from exoplanetDetection.pipeline.stage_03_prepare_callbacks import PrepareCallbacksTrainingPipeline
+from exoplanetDetection.pipeline.stage_03_training import TrainingPipeline
 from exoplanetDetection import logger
 
 
@@ -28,10 +28,10 @@ except Exception as e:
     raise e
 
 
-STAGE_NAME = "Prepare Callbacks stage"
+STAGE_NAME = "Model Training stage"
 try:
     logger.info(f">>>>>>> stage {STAGE_NAME} started <<<<<<<")
-    prepare_callbacks = PrepareCallbacksTrainingPipeline()
+    prepare_callbacks = TrainingPipeline()
     prepare_callbacks.main()
     logger.info(f">>>>>>> stage {STAGE_NAME} completed <<<<<<<")
 
