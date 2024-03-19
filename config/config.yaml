@@ -21,3 +21,5 @@ prepare_callbacks:
 training:
   root_dir: artifacts/training
   trained_model_path: artifacts/training/model.keras
+  loss_curve_root: artifacts/training/loss_curve.jpg
+  accuracy_curve_root: artifacts/training/accuracy_curve.jpg

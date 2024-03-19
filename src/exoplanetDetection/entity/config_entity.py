@@ -41,3 +41,5 @@ class TrainingConfig:
     params_batch_size: int
     params_is_augmentation: bool
     params_image_size: list
+    loss_curve_root: Path
+    accuracy_curve_root: Path

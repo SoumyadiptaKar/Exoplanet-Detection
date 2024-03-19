@@ -19,9 +19,11 @@ class TrainingPipeline:
         training = Training(config=training_config)
         training.get_base_model()
         training.train_valid_generator()
-        training.train(
+        history=training.train(
             callback_list=callback_list
         )
+        training.save_loss_curve(history=history)
+        training.save_accuracy_curve(history=history)
 
 if __name__ == '__main__':
     try:

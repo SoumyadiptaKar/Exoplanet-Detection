@@ -4,6 +4,7 @@ from zipfile import ZipFile
 import tensorflow as tf
 import time
 from pathlib import Path
+import matplotlib.pyplot as plt
 from exoplanetDetection.entity.config_entity import TrainingConfig
 
 class Training:
@@ -68,7 +69,7 @@ class Training:
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
 
-        self.model.fit(
+        history = self.model.fit(
             self.train_generator,
             epochs=self.config.params_epochs,
             steps_per_epoch=self.steps_per_epoch,
@@ -81,3 +82,28 @@ class Training:
             path=str(self.config.trained_model_path),
             model=self.model
         )
+
+        return history
+        # self.save_loss_curve(history)
+
+        # self.save_accuracy_curve(history)
+
+    def save_loss_curve(self, history):
+        plt.plot(history.history['loss'], label='Training Loss')
+        plt.plot(history.history['val_loss'], label='Validation Loss')
+        plt.xlabel('Epoch')
+        plt.ylabel('Loss')
+        plt.title('Training and Validation Loss')
+        plt.legend()
+        plt.savefig(str(self.config.loss_curve_root))
+        plt.close()
+
+    def save_accuracy_curve(self, history):
+        plt.plot(history.history['accuracy'], label='Training Accuracy')
+        plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
+        plt.xlabel('Epoch')
+        plt.ylabel('Accuracy')
+        plt.title('Training and Validation Accuracy')
+        plt.legend()
+        plt.savefig(str(self.config.accuracy_curve_root))
+        plt.close()
